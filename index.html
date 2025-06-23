@@ -7,8 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="unlock (1).svg" alt="cadeado fechado">
-     <h2 class="titulo-principal"> Gerador de Senhas</h2>
-     <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+    <section class="conteudo">
+        <div class="conteudo-titulo">
+            <img src="unlock (1).svg" alt="cadeado fechado">
+            <h2 class="titulo-principal"> Gerador de Senhas</h2>
+            <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+        </div>
+        <div class="conteudo-senha">
+            <label for="senha">Senha</label>
+            <input name= "senha" type="text" id="campo-senha">
+        </div>
+        <div class="parametro">
+            <h3 class="parametro-titulo">Personalize sua senha</h3>
+            <div class="parametro-coluna_senha">
+                <div class="paramento-senha">
+                    <h4 class="paramento-senha_texto"> Número de caracteres</h4>
+                    <div class="paramento-senha-botoes">
+                        <button class="paramento-senha_botao">-</button>
+                        <p class="paramento-senha_texto">12</p>
+                        <button class="paramento-senha_botao">+</button>
+                    </div>
+                </div>
+                <div class="parametro-senha">
+                    <h4 class="paramento-senha_titulo">Caracteristicas da senha</h4>
+                    <div class="paramento-senha-checkbox">
+                        <input type="checkbox" name="maiusculo" class="checkbox" checked>
+                        <label for="maiusculo">Letras maiúsculas</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
